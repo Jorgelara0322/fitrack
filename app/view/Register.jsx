@@ -1,8 +1,5 @@
-import { logic } from "../logic/index";
-import { errors } from "com";
-import { useContext } from "../context";
-
-const { SystemError, ValidationError } = errors
+import { logic } from "../logic/index.js";
+import { useContext } from "../context.js";
 
 export function Register({ onUserRegistered, onNavigateToLogin }) {
     const { alert } = useContext()

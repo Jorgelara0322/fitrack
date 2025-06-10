@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { logic } from "../../logic"
+import { logic } from "../../logic/index.js"
 import { Routine } from "../Routine.jsx"
 import { useContext } from "../../context.js";
 

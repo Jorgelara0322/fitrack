@@ -1,5 +1,5 @@
-import { useContext } from "../context";
-import { logic } from "../logic";
+import { useContext } from "../context.js";
+import { logic } from "../logic/index.js";
 
 export function Login({ onUserLoggedIn, onNavigateToRegister }) {
     const { alert } = useContext()

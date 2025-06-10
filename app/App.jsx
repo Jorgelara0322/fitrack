@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react'
 import { Routes, Route, Navigate, useNavigate } from 'react-router';
 
-import { Landing } from './view/Landing'
-import { Register } from './view/Register'
-import { Login } from './view/Login'
-import { Home } from './view/Home/index'
-import { Alert } from './view/Alert';
-import { Confirm } from './view/Confirm';
+import { Landing } from './view/Landing.jsx'
+import { Register } from './view/Register.jsx'
+import { Login } from './view/Login.jsx'
+import { Home } from './view/Home/index.jsx'
+import { Alert } from './view/Alert.jsx';
+import { Confirm } from './view/Confirm.jsx';
 
-import { logic } from './logic/index';
-import { Context } from './context';
+import { logic } from './logic/index.js';
+import { Context } from './context.js';
 
 export function App() {
     const [loggedIn, setLoggedIn] = useState(null);
